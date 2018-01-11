@@ -1,0 +1,36 @@
+.site-header {
+    background-color: #eeeeee;}
+.site-logo{height: 120px;
+    mix-blend-mode: multiply;
+    border-color:red;}
+.site-title{
+    font-size: 20px; padding-left: 25px}
+.site-header table {max-width:1500px; max-height: 75px; position: relative}
+.site-header table tr td:first-child {width: 1%}
+.site-header-top-grid {
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    white-space: nowrap;}
+.site-header-top-grid .col {
+    line-height: 30px;
+    max-width: 1800px;}
+.site-header-top-grid .col a {
+    font-size: 30px;}
+.site-header-top-grid .col .fa-facebook-official{
+    color: #0d47a1;}
+.site-header-top-grid .col .fa-twitter{
+    color: #0091ea;}
+.site-menu { background-color: #4699a0 }
+.site-menu > div { max-width: 100% }
+.site-menu > div ul li a { color: white }
+.site-menu .fa { padding-right: 5px }
+.site-body { max-width: 900px }
+.site-body .site-car-list img { width: 50px }
+.site-body .site-car-list thead th {     max-width: 1800px; border-top: 1px black solid; border-bottom: 1px black solid }
+.site-body .site-car-list tfoot th {    max-width: 1800px; border-top: 1px black solid }
+.site-body .site-car-list td {
+    vertical-align: middle;
+width: 100%}
+
+.site-body .btn { cursor: alias }
