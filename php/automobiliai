@@ -1,0 +1,22 @@
+$s= <<<EOT
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table>
+    <row>
+        <gamintojas>Honda</gamintojas>
+        <modelis>Civic</modelis>
+        <metai>2007</metai>
+    </row>
+    <row>
+        <gamintojas>Audi</gamintojas>
+        <modelis>A3</modelis>
+        <metai>2004</metai>
+    </row>
+    <row>
+        <gamintojas>Lada</gamintojas>
+        <modelis>11</modelis>
+        <metai>1985</metai>
+    </row>
+</table>
+EOT;
+$xml= simplexml_load_string($s);
